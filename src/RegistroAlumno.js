@@ -11,7 +11,7 @@ function RegistroAlumno() {
     const guardar = async () => {
         try {
             // Enviamos el paquete completo a la API
-            await axios.post('https://ejerciciomvc-ugli.onrender.com/api/Reporte/registrar', {
+            await axios.post('https://ejerciciomvc-ug1i.onrender.com/api/Reporte/registrar', {
                 name: nombre,
                 idBanner: banner,
                 notaP1: parseFloat(nota1), // Convertimos el texto a número decimal
