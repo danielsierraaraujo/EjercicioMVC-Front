@@ -10,7 +10,7 @@ function Reporte() {
         try {
             setError('');
             setReporte(null);
-            const respuesta = await axios.get(`http://localhost:5286/api/Reporte/calificacionesFinales/${idBanner}`);
+            const respuesta = await axios.get(`https://ejerciciomvc-ugli.onrender.com/api/Reporte/calificacionesFinales/${idBanner}`);
             setReporte(respuesta.data);
         } catch (err) {
             setError('No se encontró el alumno o aún no tiene notas registradas.');
