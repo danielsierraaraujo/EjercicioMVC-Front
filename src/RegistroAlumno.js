@@ -76,4 +76,4 @@ function RegistroAlumno() {
     );
 }
 
-export default RegistroAlumno;
+export default RegistroAlumno;  
